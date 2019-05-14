@@ -1,7 +1,7 @@
 {
     "name": "screen-manager",
-    "version": "1.0.0",
-    "description": "Screen管理",
+    "version": "1.1.0",
+    "description": "Screen管理2.0",
     "author": "Aguangtian",
     "main": "main.js",
     "main-menu": {

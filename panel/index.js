@@ -60,7 +60,7 @@ Editor.Panel.extend({
         const path = require('path');
         const resFile = path.resolve(Editor.projectInfo.path, './assets/lib/screen-data.js');
         const dtsFile = path.resolve(Editor.projectInfo.path, './typings/screen-data.d.ts');
-        const templateFile = path.resolve(Editor.projectInfo.path, './packages/screen-manager/template.js');
+        const templateFile = path.resolve(Editor.projectInfo.path, './packages/screen-manager-2/template.js');
         const templateTxt = fs.readFileSync(templateFile, 'utf-8').toString();
 
         new window.Vue({
